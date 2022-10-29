@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Itim', cursive;
+}
+
+.background {
+  background-color: #12181b;
+  height: 100vh;
+}
+
+.title {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.display {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 300px;
+}
+
+.tile {
+  border: 1px solid white;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.tile:hover {
+  background: #000;
+}
+
+.playerX {
+  color: #09c372;
+}
+
+.playerO {
+  color: #498afb;
+}
+
+.draw {
+  color: #f25474;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+#reset {
+  background-color: #eb382b;
+  color: white;
+  padding: 0.5em 0.75em;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+#reset:active {
+  transform: scale(0.95);
+}
