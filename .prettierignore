@@ -1,0 +1,16 @@
+# implicit ignore
+# **/.git
+# **/.svn
+# **/.hg
+# **/node_modules
+
+# Build products
+/build
+
+# testing
+/coverage
+
+# dependencies
+package-lock.json
+yarn.lock
+package.json
